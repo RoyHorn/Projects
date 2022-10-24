@@ -53,7 +53,6 @@ def show_ascii(text):
 
 def main():
 	args = sys.argv[1:]
-	args = ["--todir", "examples/daniel.jpeg", 4]
 	
 	if not args:
 		print('usage: [--todir] picture compression -inv')
